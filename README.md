@@ -21,10 +21,12 @@ Here is a list of topics available in this guide
 - [Stackalloc in nested expressions](./Pages/stackalloc-in-nested-expressions.md)
 - [Enhancement of interpolated verbatim strings](./Pages/verbatim-strings.md)
 
+You can find more information about C# 8.0 [here](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8).
+
 ## What is an interactive guide?
 
 This guide is using the new `dotnet try` engine to give the reader of this guide the possibility of playing around with the code snippets without leaving the browser.
 Here is an example.
 
-```cs --source-file ./Snippets/Program.cs --project ./Snippets/Snippets.csproj --region welcome
+```cs --source-file ./Snippets/Program.cs --project ./Snippets/Snippets.csproj --region welcome --session welcome
 ```
